@@ -9,9 +9,6 @@
   [Installation](https://github.com/ilelandhayes/Note-Taker#Installation)
 
 
-  [Usage Of](https://github.com/ilelandhayes/Note-Taker#Usage-Of)
-
-
   [How to Contribute](https://github.com/ilelandhayes/Note-Taker#How-to-Contribute)
 
 
