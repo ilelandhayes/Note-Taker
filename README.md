@@ -6,22 +6,22 @@
   
   ## Table of Contents
   
-  [Installation](https://github.com/ilelandhayes#Installation)
+  [Installation](https://github.com/ilelandhayes/Note-Taker#Installation)
 
 
-  [Usage Of](https://github.com/ilelandhayes#Usage-Of)
+  [Usage Of](https://github.com/ilelandhayes/Note-Taker#Usage-Of)
 
 
-  [How to Contribute](https://github.com/ilelandhayes#How-to-Contribute)
+  [How to Contribute](https://github.com/ilelandhayes/Note-Taker#How-to-Contribute)
 
 
-  [Testing](https://github.com/ilelandhayes#Testing)
+  [Testing](https://github.com/ilelandhayes/Note-Taker#Testing)
 
 
-  [License](https://github.com/ilelandhayes#License)
+  [License](https://github.com/ilelandhayes/Note-Taker#License)
 
 
-  [Questions](https://github.com/ilelandhayes#Questions)
+  [Questions](https://github.com/ilelandhayes/Note-Taker#Questions)
   
   ## Installation
   
