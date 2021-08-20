@@ -35,21 +35,16 @@ notes.post('/', (req, res) => {
 });
 
 // DELETE Route for a specific tip
-notes.delete('/:note_id', (req, res) => {
-    const tipId = req.params.tip_id;
-    readFromFile('./db/db.json')
-      .then((data) => JSON.parse(data))
-      .then((json) => {
-        // Make a new array of all tips except the one with the ID provided in the URL
-        const result = json.filter((tip) => tip.tip_id !== tipId);
+notes.delete("/:id", (req, res) => {
+    const { id } = req.params;
+    const note = JSON.parse(fs.readFileSync("./db/db.json", "utf8"));
   
-        // Save that array to the filesystem
-        writeToFile('./db/db.json', result);
+    const indexOfNotes = note.findIndex(note => note.id === id);
   
-        // Respond to the DELETE request
-        res.json(`Item ${tipId} has been deleted 🗑️`);
-      });
-  });
-
+    note.splice(indexOfNotes, 1);
+  
+    writeToFile("./db/db.json", note);
+    return res.send();
+  })
 
 module.exports = notes;
